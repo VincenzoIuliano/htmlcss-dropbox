@@ -45,6 +45,12 @@ html {
     text-align: center;
 }
 
+.container-little {
+    width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;

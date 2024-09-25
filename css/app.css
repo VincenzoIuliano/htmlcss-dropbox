@@ -12,13 +12,33 @@ ol {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 /* LAYOUT  */
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 .container-full {
   width: 100%;
+}
+ 
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-mid {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .row {
@@ -35,6 +55,24 @@ img {
     justify-content: space-between
 }
 
+.big-text {
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.container .container-mid > * {
+    padding: 15px;
+}
+
+.first-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.first-section > * {
+    font-size: 18px;
+}
 /* UTILITIES */
 
 .justify-between {
@@ -49,10 +87,25 @@ img {
     background-color: blue;
     padding: 10px 15px;
     color: white;
+    width: max-content;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-33 {
+    width: 33%;
+}
+
+.col-66 {
+    width: 66%;
 }
 
 
-
+.left-align {
+    text-align: left;
+}
 
 
 /* DEBUG  */

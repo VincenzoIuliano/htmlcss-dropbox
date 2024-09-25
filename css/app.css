@@ -15,6 +15,10 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* LAYOUT  */
 
 html {
@@ -61,13 +65,13 @@ html {
 }
 
 .container .container-mid > * {
-    padding: 15px;
+    padding-top: 75px;
 }
 
 .first-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 30px;
 }
 
 .first-section > * {
@@ -107,7 +111,13 @@ html {
     text-align: left;
 }
 
+.arrow-icon {
+    font-size: 50px;;
+}
 
+.bg_lightblue {
+    background-color: rgba(180, 208, 231, 1);
+}
 /* DEBUG  */
 
 .debug {

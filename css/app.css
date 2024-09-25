@@ -77,6 +77,11 @@ html {
 .first-section > * {
     font-size: 18px;
 }
+
+.arrow-icon {
+    position: absolute;
+    bottom: 20px;
+}
 /* UTILITIES */
 
 .justify-between {
@@ -100,6 +105,7 @@ html {
 
 .col-33 {
     width: 33%;
+    position: relative;
 }
 
 .col-66 {

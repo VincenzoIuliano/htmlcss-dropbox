@@ -79,17 +79,16 @@ html {
 .first-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    align-items: flex-start;
 }
 
 .first-section > * {
     font-size: 18px;
 }
 
-.arrow-icon {
-    position: absolute;
-    bottom: 20px;
-}
 
 .plans-header {
     display: flex ;
@@ -161,8 +160,13 @@ html {
 .arrow-icon {
     font-size: 50px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.arrow-icon > * {
+    margin-top: auto;
+    align-items: flex-start;
 }
 
 .bg_lightblue {

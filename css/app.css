@@ -49,6 +49,8 @@ html {
     width: 1020px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .row {
@@ -88,6 +90,30 @@ html {
     position: absolute;
     bottom: 20px;
 }
+
+.plans-header {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.plans-header > * {
+    padding: 20px 20px;
+}
+
+.input-plan > * {
+    display: inlineblock;
+    padding: 0px 15px;
+}
+
+.card-header {
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
 /* UTILITIES */
 
 .justify-between {
@@ -100,9 +126,17 @@ html {
 
 .btn-blue {
     background-color: blue;
-    padding: 10px 15px;
+    padding: 0px 15px;
     color: white;
     width: max-content;
+    line-height:44px;
+    text-align: center;
+    display: inline-block;
+}
+
+.card-try > * {
+    display: flex;
+    justify-items: center;
 }
 
 .col-100 {
@@ -112,6 +146,7 @@ html {
 .col-33 {
     width: 33%;
     position: relative;
+    min-height: 200px;
 }
 
 .col-66 {
@@ -124,11 +159,18 @@ html {
 }
 
 .arrow-icon {
-    font-size: 50px;;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .bg_lightblue {
     background-color: rgba(180, 208, 231, 1);
+}
+
+.text-800 {
+    font-weight: 800;
 }
 /* DEBUG  */
 
